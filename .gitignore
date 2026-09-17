@@ -1,0 +1,52 @@
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ---- 构建产物与依赖 ----
+node_modules/
+dist/
+build/
+out/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# ---- Python（独立虚拟环境约定，见 VCS-WF-001）----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ---- 机密（兜底，见 VCS-DEV-001）----
+*.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- 本地配置 ----
+*.local
